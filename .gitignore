@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# Next.js build output
+.next/
+
+# Exclude Next.js cache
+.next/cache
+
+# Local environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+# Dependencies
+node_modules/
+
+# Build files
+.next/
+out/
+
+# Environment variables
+.env*.local
+
+# Cache
+.cache/
+.temp/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.dbgit filter-repo --force --invert-paths --path .next/cache

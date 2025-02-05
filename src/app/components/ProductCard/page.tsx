@@ -1,8 +1,9 @@
-
+// src/app/components/ProductCard/page.tsx
 
 import Link from "next/link";
 
-interface ProductCardProps  {
+// Define the interface for the product card props
+interface ProductCardProps {
   product: {
     _id: string;
     title: string;
@@ -13,8 +14,9 @@ interface ProductCardProps  {
       };
     };
   };
-};
+}
 
+// Define the ProductCard component using the props interface
 const ProductCard = ({ product }: ProductCardProps) => {
   return (
     <div className="product-card bg-white rounded-lg shadow-lg p-4 hover:shadow-2xl transition-all">
@@ -33,4 +35,5 @@ const ProductCard = ({ product }: ProductCardProps) => {
   );
 };
 
+// Make sure this is a default export
 export default ProductCard;

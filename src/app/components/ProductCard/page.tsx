@@ -1,3 +1,5 @@
+// File: src/app/components/ProductCard/ProductCard.tsx
+
 import Link from "next/link";
 
 // Define the interface for the product card props

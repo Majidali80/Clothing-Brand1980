@@ -1,5 +1,3 @@
-// src/app/components/ProductCard/page.tsx
-
 import Link from "next/link";
 
 // Define the interface for the product card props
@@ -35,5 +33,5 @@ const ProductCard = ({ product }: ProductCardProps) => {
   );
 };
 
-// Make sure this is a default export
+// Default export of the ProductCard component
 export default ProductCard;
